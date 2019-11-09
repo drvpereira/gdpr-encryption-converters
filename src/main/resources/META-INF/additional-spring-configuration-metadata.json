@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "gdpr.database.encryption",
+      "type": "tech.davidpereira.gdpr.configuration.EncryptionProperties",
+      "sourceType": "tech.davidpereira.gdpr.configuration.EncryptionProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gdpr.database.encryption.password",
+      "type": "java.lang.String",
+      "description": "Encryption key.",
+      "sourceType": "tech.davidpereira.gdpr.configuration.EncryptionProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "gdpr.database.encryption.salt",
+      "type": "java.lang.String",
+      "description": "Encryption salt.",
+      "sourceType": "tech.davidpereira.gdpr.configuration.EncryptionProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "gdpr.database.encryption.iv",
+      "type": "java.lang.String",
+      "description": "Encryption iv.",
+      "sourceType": "tech.davidpereira.gdpr.configuration.EncryptionProperties",
+      "defaultValue": ""
+    }
+  ]
+}
